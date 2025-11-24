@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>OurWebsite</title>
+  <link rel="stylesheet" href="OurWebsite.css">
+  <style>
+    img{
+      width: 300px;
+      height: 400px;
+      border: 3px dodgerblue solid;
+      border-radius: 40px;
+    }
+    .Bag{
+      border: 3px dodgerblue solid;
+      border-radius: 40px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: all 0.5s ease-in-out;
+    }
+    .Car{
+      display: flex;
+      justify-content: space-evenly;
+      transition: all 0.5s ease-in-out;
+    }
+    .Car:hover .Bag{
+      transform: scale(0.8);
+    }
+    .Car .Bag:hover{
+      transform: scale(1) rotate(5deg);
+      background-color: dodgerblue;
+
+    }
+    header{
+      background-color: dodgerblue;
+      font-size: 60px;
+      color: white;
+      text-align: center;
+    }
+    footer{
+      background-color: dodgerblue;
+      font-size: 60px;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Library Club
+  </header>
+  <br><br><br><br>
+<div class="Car">
+  <div class="Bag">
+    <h1>Library</h1>
+    <img src="Library with Student.jpg" alt="Main image here">
+    <h1>Student</h1>
+  </div>
+  <div class="Bag">
+    <h1>Library</h1>
+    <img src="Library with Student.jpg" alt="Main image here">
+    <h1>Student</h1>
+  </div>
+  <div class="Bag">
+    <h1>Library</h1>
+    <img src="Library with Student.jpg" alt="Main image here">
+    <h1>Student</h1>
+  </div>
+  <div class="Bag">
+    <h1>Library</h1>
+    <img src="Library with Student.jpg" alt="Main image here">
+    <h1>Student</h1>
+  </div>
+</div>
+  <br><br><br><br>
+  <footer>
+    ayeshabae27@gmail.com
+  </footer>
+
+
+
+</body>
+</html>
